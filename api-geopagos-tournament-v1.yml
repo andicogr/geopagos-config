@@ -1,0 +1,25 @@
+
+server:
+  port: 9930
+
+spring:
+  application:
+    name: api-tournament-v1
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: tournament
+
+
+application:
+  tournament:
+    default-additional-attributes:
+      MALE:
+        - STRENGTH
+        - SPEED
+      FEMALE:
+        - REACTION_TIME
+  http-client:
+    api-player-v1:
+      base-url: localhost:9920/api/v1/players
