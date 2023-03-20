@@ -1,15 +1,14 @@
 
-server:
-  port: 9930
 
 spring:
   application:
     name: api-tournament-v1
   data:
     mongodb:
-      host: localhost
-      port: 27017
+      #host: localhost
+      #port: 27017
       database: tournament
+      uri: mongodb://geopagos-mongodb:KcL4FI1BxfwlPJ3XNkwZXXLzhY8VZWubzQ5WIdvSTTGoG4wjJxky8ev2Fp6fF5AsRwibgYMHRgtlACDbiHASxA==@geopagos-mongodb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@geopagos-mongodb@
 
 
 application:
