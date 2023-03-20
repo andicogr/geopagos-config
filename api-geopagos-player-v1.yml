@@ -1,4 +1,7 @@
 
+server:
+  port: 9930
+
 spring:
   application:
     name: api-player-v1
